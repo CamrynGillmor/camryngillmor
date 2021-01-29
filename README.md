@@ -1,16 +1,16 @@
-### Hi there 👋
+### Hi, Hello, Hey there 👋
 
-<!--
-**CamrynGillmor/camryngillmor** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Thanks for stopping by! I hope you enjoy my portfolio. See below for a few extra tidbits about me. 
+ 
+- 😄 Pronouns: She/Her/Hers
 
-Here are some ideas to get you started:
+- ⚡ Fun fact: I love playing cooperative board games! My recent favorite is Apollo: A Game Inspired By NASA Moon Missions.  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🌱 I’m currently learning: Everyday! We are never done learning or growing! 
+        Recent topics of interest include:
+          - UX UI Design
+          - Preparing your toddler for preschool
+          - Making the perfect paella
+          - How to sew a doorway puppet theatre
+          
+          
