@@ -1,0 +1,486 @@
+/* General Styles */
+h1{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    color: #1f1f1f;
+    font-size: 65px;
+}
+
+h2{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    color: #1f1f1f;
+    font-size: 30px;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    color: #1f1f1f;
+    font-size: 20px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    color: #1f1f1f;
+    font-size: 15px; 
+}
+body{
+    color: #1f1f1f
+}
+
+a{
+    color: #707070;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #1f1f1f;
+}
+nav a:hover {
+    color: #707070;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#top{
+    height: 30px;
+    margin: 0px 10%;
+}
+.topRight img{
+    width: 25px;
+}
+.topRight1 img{
+    width: 32px;
+}
+.topRight2 img{
+    display:none;
+}
+.topLeft {
+    float:left;
+    margin-left: 10px;
+}
+.topRight {
+    float: right;
+    margin-right: 2%;
+}
+.topRight1 {
+    float: right;
+    margin-right: 3%;
+    margin-top: 3px;
+}
+#topCenter {
+    display:block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+header img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+header h1{
+    margin: 0px;
+    margin-top: -4%;
+}
+header h3{
+    margin: 1%  22%;
+    font-weight: normal;
+    line-height: 120%;
+    padding-bottom: 1%;
+} 
+
+/* Nav */
+nav {
+    background-color: #F5DF4D;
+    padding: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: #1f1f1f;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0 50px;
+    text-align: center;
+}
+
+    /* Sticky Nav */
+        /* Style the navbar */
+        #navbar {
+            overflow: hidden;
+        }
+        
+        /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        
+        /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+        .sticky + .content {
+            padding-top: 60px;
+        }
+
+
+/* Section */
+section {
+    background-color: #EEEEEE ;
+}
+.caseStudy1Graphic img {
+    max-width: 500px;
+    min-width: 300px;
+    width: 100%;
+    height: auto;
+}
+.caseStudy2Graphic img {
+    width: 500px;
+}
+.caseStudy3Graphic img {
+    width: 500px;
+}
+/* Hold Grid Attempt One
+#Work {
+    margin: 0px 5%;
+    display: grid;
+    display: inline-grid;
+    min-height: 500px;
+    height: 70vh;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-areas:
+        "caseStudy1Text caseStudy1Graphic caseStudy1Graphic"
+        "caseStudy2Graphic caseStudy2Graphic caseStudy2Text"
+        "caseStudy3Text caseStudy3Graphic caseStudy3Graphic";
+}
+
+.caseStudy1Text {
+    grid-area: caseStudy1Text;
+}
+.caseStudy1Graphic {
+    grid-area: caseStudy1Graphic;
+}
+.caseStudy2Text {
+    grid-area: caseStudy2Text;
+}
+.caseStudy2Graphic {
+    grid-area: caseStudy2Graphic;
+}
+.caseStudy3Text {
+    grid-area: caseStudy3Text;
+}
+.caseStudy3Graphic {
+    grid-area: caseStudy3Graphic;
+}
+.workGrid {
+    align-items: center;
+    display: flex;
+    position: relative;
+  }
+
+*/
+/*#work {
+    margin: 0px 5%;
+    display: grid;
+    min-height: 500px;
+    height: 70vh;
+    grid-template-rows: 33% 33% 34%;
+    grid-template-columns: 33% 33% 34%;
+    grid-template-areas:
+    "caseStudy1 caseStudy1 caseStudy1"
+    "caseStudy2 caseStudy2 caseStudy2 "
+    "caseStudy3 caseStudy3 caseStudy3";
+  }*/
+ #work {
+    margin: 0px 10%;
+    display: grid;
+    min-height: 500px;
+    height: 70vh;
+    grid-template-rows: 33% 33% 34%;
+    grid-template-areas:
+    "caseStudy1 "
+    "caseStudy2 "
+    "caseStudy3 ";
+  }
+.workGrid {
+    align-items: center;
+    display: flex;
+    position: relative;
+  } 
+/* Case Study 1 */
+#caseStudy1 {
+    margin: 0px 10%;
+    display: grid;
+    min-height: 400px;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+    "caseStudy1Text caseStudy1Graphic";
+  }
+#caseStudy1 {
+    grid-area: caseStudy1;
+    padding: 1%;
+  }
+.caseStudy1Text {
+    grid-area: caseStudy1Text;
+    text-align: right;
+    padding: 2%;
+    padding-left: 15%
+}
+ .caseStudy1Text h2 {
+    margin-right: -15%;
+    z-index: 1;
+    position: relative;
+} 
+.caseStudy1Graphic {
+    grid-area: caseStudy1Graphic;
+    grid-column-start: 2;
+    background-color: #d5d6d7;
+    padding: 10%;
+    display: block;
+    margin-left: auto;
+}
+.caseStudy1Graphic img {
+    max-width: 500px;
+    min-width: 300px;
+    width: 100%;
+    height: auto;
+}
+
+/* Case Study 2 */
+#caseStudy2 {
+    margin: 0px 10%;
+    display: grid;
+    min-height: 400px;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+    "caseStudy2Graphic caseStudy2Text";
+  }
+#caseStudy2 {
+    grid-area: caseStudy2;
+    padding: 1%;
+  }
+.caseStudy2Text {
+    grid-area: caseStudy2Text;
+    text-align: left;
+    padding: 2%;
+    padding-right: 15%
+} 
+.caseStudy2Text h2 {
+    margin-left: -15%;
+    z-index: 1;
+    position: relative;
+} 
+.caseStudy2Graphic {
+    grid-area: caseStudy2Graphic;
+    grid-column-start: 1;
+    background-color: #f5df4d;
+    padding: 10%;
+    display: block;
+    margin-right: auto;
+}
+.caseStudy2Graphic img {
+    max-width: 500px;
+    min-width: 300px;
+    width: 100%;
+    height: auto;
+}
+
+/* Case Study 3 */
+#caseStudy3 {
+    margin: 0px 10%;
+    display: grid;
+    min-height: 400px;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+    "caseStudy3Text caseStudy3Graphic ";
+  }
+#caseStudy3 {
+    grid-area: caseStudy3;
+    padding: 1%;
+  }
+.caseStudy3Text {
+    grid-area: caseStudy3Text;
+    text-align: right;
+    padding: 2%;
+    padding-left: 15%;
+    margin-top:-20%;
+}
+.caseStudy3Text h2 {
+    margin-right: -15%;
+    z-index: 1;
+    position: relative;
+} 
+.caseStudy3Graphic {
+    grid-area: caseStudy3Graphic;
+    grid-column-start: 2;
+    background-color: #d5d6d7;
+    padding: 10%;
+    display: block;
+    margin-left: auto;
+}
+.caseStudy3Graphic img {
+    max-width: 500px;
+    min-width: 300px;
+    width: 100%;
+    height: auto;
+}
+
+/* Footer */
+#Footer {
+    background-color:#d5d6d7;
+    display:grid;
+    min-height: 100px;
+    padding: 0px 10%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "logo footerNav";
+}
+.logo{
+    grid-area: logo;
+    display: block;
+    margin: auto;
+    margin-left: 10%;
+}
+.logo h1 {
+    font-size: 40px;
+}
+.footerNav {
+    grid-area: footerNav;
+    display: block;
+    margin: auto;
+    margin-right: 10%;
+}
+.footerNav a {
+    text-decoration: none;
+    padding: 0 12px;
+}
+.footerLinkedIn {
+    width: 25px;
+}
+.footerBehance {
+    width: 32px;
+}
+
+/* Mobile Version - Media Query */
+    @media only screen and (max-width: 700px) {
+
+        /* Header Section */
+        h1 {
+            font-size: 35px;
+        }
+        #top {
+            height: 32px;
+        }
+        .topRight img {
+            display: none;
+        }
+        .topRight1 img {
+            display: none;
+        }
+        .topRight2 img{
+            width: 32px;
+            display: block;
+            float: right;
+        }
+        #navbar a {
+            display: none;
+        }
+        header img {
+            width: 40%;
+        }
+        header h3 {
+            margin: 1% 6%;
+        }
+        #navbarMobile {
+            /*display:none;
+            temporary code until you can build fly out menu */
+        }
+        #navbarMobile li {
+            list-style: none;
+        }
+        #navbarMobile a {
+            color: #1f1f1f;
+            font-family: 'Libre Baskerville', serif;
+            font-weight: bold;
+            font-size: 25px;
+            text-decoration: none;
+        }
+        #navbarMobile a:hover {
+            color: #707070;
+        }
+        /* Case Study 1 */
+        #caseStudy1 {
+            margin: 0px 10%;
+            display: grid;
+            min-height: 400px;
+            grid-template-columns: 100%;
+            grid-template-rows: 50% 50%;
+            grid-template-areas:
+            "caseStudy1Graphic"
+            "caseStudy1Text";
+        }
+        .caseStudy1Text {
+            grid-area: caseStudy1Text;
+        }
+        .caseStudy1Text h2 {
+            margin-right: 0;
+
+        } 
+        .caseStudy1Graphic {
+            grid-area: caseStudy1Graphic;
+            grid-column-start: 1;
+        }
+
+        /* Case Study 2 */
+        #caseStudy2 {
+            margin: 0px 10%;
+            display: grid;
+            min-height: 400px;
+            grid-template-columns: 100%;
+            grid-template-rows: 50% 50%;
+            grid-template-areas:
+            "caseStudy2Graphic"
+            "caseStudy2Text";
+        }
+        .caseStudy2Text {
+            grid-area: caseStudy2Text;
+        }
+        .caseStudy2Text h2 {
+            margin-left: 0;
+
+        } 
+        .caseStudy2Graphic {
+            grid-area: caseStudy2Graphic;
+            grid-column-start: 1;
+        }
+        /* Case Study 3 */
+        #caseStudy3 {
+            margin: 0px 10%;
+            display: grid;
+            min-height: 400px;
+            grid-template-columns: 100%;
+            grid-template-rows: 50% 50%;
+            grid-template-areas:
+            "caseStudy3Graphic"
+            "caseStudy3Text";
+        }
+        .caseStudy3Text {
+            grid-area: caseStudy3Text;
+            margin-top:0;
+        }
+        .caseStudy3Text h2 {
+            margin-right: 0;
+
+        } 
+        .caseStudy3Graphic {
+            grid-area: caseStudy3Graphic;
+            grid-column-start: 1;
+        }
+
+
+    }
